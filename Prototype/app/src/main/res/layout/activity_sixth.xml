@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_back"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.prototype.FifthActivity">
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Content"
+        android:layout_margin="20dp"
+        android:lines="5"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColorHint="#f91e54" />
+
+    <TextView
+        android:id="@+id/et_topic"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attach Files"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="#f91e54" />
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:background="@drawable/btn_background"
+        android:text="Submit"
+        android:textColor="#e11600" />
+</LinearLayout>

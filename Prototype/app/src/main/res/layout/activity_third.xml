@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_back"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.prototype.ThirdActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="FOLLOW 5 COURSES"
+        android:textColor="#ff1d1d"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="ADD THE COURSES BELOW"
+        android:textColor="#ff1d1d"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="#9e0000"
+        android:hint="1.COURSE 1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="#9e0000"
+        android:hint="2.COURSE 2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="#9e0000"
+        android:hint="3.COURSE 3"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="#9e0000"
+        android:hint="4.COURSE 4"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="#9e0000"
+        android:hint="5.COURSE 5"/>
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textSize="20dp"
+        android:textColor="#d72e07"
+        android:background="@drawable/btn_background"
+        android:layout_margin="10dp"/>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_back"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.prototype.FifthActivity">
+
+    <EditText
+        android:id="@+id/et_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:textColorHint="#f91e54" />
+
+    <EditText
+        android:id="@+id/et_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Topic"
+        android:textColorHint="#f91e54" />
+
+    <EditText
+        android:id="@+id/et_topic_what"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What In Topic"
+        android:textColorHint="#f91e54" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Description"
+        android:lines="5"
+        android:textColorHint="#f91e54" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:background="@drawable/btn_background"
+        android:text="Start Creating"
+        android:textColor="#e11600" />
+</LinearLayout>
